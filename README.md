@@ -2,6 +2,7 @@
 
 > **Candidate:** Pagadam Setty Yasaswini  
 > **Repository:** [https://github.com/214G1A05C2/join-easy_task1.git](https://github.com/214G1A05C2/join-easy_task1.git)  
+> **Live Production URL:** [https://speedy-saffron-9kvgnnz.tmp.now](https://speedy-saffron-9kvgnnz.tmp.now)  
 > **Role:** Frontend Intern Assignment – Task 1  
 > **Tech Stack:** React 19, Vite, Tailwind CSS, Lucide React, LocalStorage, Vercel
 

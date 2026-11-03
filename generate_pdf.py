@@ -105,7 +105,7 @@ def generate_pdf():
         ],
         [
             Paragraph("<b>Live Website (Vercel):</b>", body_style),
-            Paragraph('Deployed to Vercel (see repository README for URL)', body_style),
+            Paragraph('<a href="https://speedy-saffron-9kvgnnz.tmp.now" color="#4338ca"><u>https://speedy-saffron-9kvgnnz.tmp.now</u></a>', body_style),
             Paragraph("<b>Submission Date:</b>", body_style),
             Paragraph("November 2026", body_style),
         ],
