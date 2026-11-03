@@ -6,7 +6,14 @@ const AssignmentContext = createContext(null);
 
 export const AssignmentProvider = ({ children }) => {
   const [assignments, setAssignments] = useState(() => {
-    return loadFromStorage(STORAGE_KEYS.ASSIGNMENTS, INITIAL_ASSIGNMENTS);
+    const loaded = loadFromStorage(STORAGE_KEYS.ASSIGNMENTS, INITIAL_ASSIGNMENTS);
+    // Auto-migrate any stale mock Google Drive folder IDs that returned 404 to working drive URLs
+    return loaded.map((asg) => {
+      if (asg.driveLink && asg.driveLink.includes('DemoJoineazy')) {
+        return { ...asg, driveLink: 'https://drive.google.com/drive/my-drive' };
+      }
+      return asg;
+    });
   });
 
   const [toast, setToast] = useState(null);

@@ -69,7 +69,7 @@ export const INITIAL_ASSIGNMENTS = [
     title: 'React Fundamentals',
     description: 'Implement a comprehensive React single page application with modern Hooks, component composition, prop drilling mitigation, and custom hooks.',
     dueDate: '2026-11-20',
-    driveLink: 'https://drive.google.com/drive/folders/1ReactFundamentalsDemoJoineazy',
+    driveLink: 'https://drive.google.com/drive/my-drive',
     createdBy: 'admin1@joineazy.com',
     creatorName: 'Dr. Robert Vance',
     assignedTo: [
@@ -96,7 +96,7 @@ export const INITIAL_ASSIGNMENTS = [
     title: 'Database Management System',
     description: 'Design relational database schemas with 3rd Normal Form (3NF), write complex SQL joins, indexing strategies, and ACID transaction scripts.',
     dueDate: '2026-10-28', // Past date -> overdue for non-submitted
-    driveLink: 'https://drive.google.com/drive/folders/1DatabaseManagementDemoJoineazy',
+    driveLink: 'https://drive.google.com/drive/my-drive',
     createdBy: 'admin1@joineazy.com',
     creatorName: 'Dr. Robert Vance',
     assignedTo: [
@@ -118,7 +118,7 @@ export const INITIAL_ASSIGNMENTS = [
     title: 'Python Programming',
     description: 'Build algorithmic data pipelines using Pandas, NumPy, and multiprocessing. Write comprehensive unit test suites covering edge cases.',
     dueDate: '2026-11-25',
-    driveLink: 'https://drive.google.com/drive/folders/1PythonProgrammingDemoJoineazy',
+    driveLink: 'https://drive.google.com/drive/my-drive',
     createdBy: 'admin2@joineazy.com',
     creatorName: 'Prof. Elena Rostova',
     assignedTo: [
@@ -141,7 +141,7 @@ export const INITIAL_ASSIGNMENTS = [
     title: 'UI/UX Design',
     description: 'Design responsive desktop and mobile design system components in Figma adhering to WCAG 2.1 AA accessibility standards.',
     dueDate: '2026-10-31', // Past date -> overdue for non-submitted
-    driveLink: 'https://drive.google.com/drive/folders/1UIUXDesignDemoJoineazy',
+    driveLink: 'https://drive.google.com/drive/my-drive',
     createdBy: 'admin2@joineazy.com',
     creatorName: 'Prof. Elena Rostova',
     assignedTo: [
@@ -163,7 +163,7 @@ export const INITIAL_ASSIGNMENTS = [
     title: 'Frontend Development Project',
     description: 'Develop a modern, highly interactive SaaS assignment review dashboard using React, Tailwind CSS, Lucide icons, and client persistence.',
     dueDate: '2026-11-18',
-    driveLink: 'https://drive.google.com/drive/folders/1FrontendDevProjectDemoJoineazy',
+    driveLink: 'https://drive.google.com/drive/my-drive',
     createdBy: 'admin1@joineazy.com',
     creatorName: 'Dr. Robert Vance',
     assignedTo: [
